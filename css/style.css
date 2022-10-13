@@ -1,3 +1,6 @@
+* {
+   box-sizing: border-box;
+}
 .nav-centered {
    width: 100%;
    justify-content: center;
@@ -94,4 +97,58 @@ transform: rotateY(180deg);
 .text-list {
    font-size: 30px;
    margin: 0 10px;
+}
+.slider {
+   padding-top: 15rem;
+   padding-bottom: 15rem;
+}
+.slider-img {
+   height: 10rem;
+   width: 100%;
+}
+.text-size {
+   font-size: 10px;
+}
+.slider-buttons {
+   gap: 3px;
+   margin-right: 18rem;
+   margin-bottom: 2rem;
+}
+.slider-header {
+   margin-left: 215px;
+}
+.btn-round {
+   background-color: #8D86C9;
+   border-color: #8D86C9;
+}
+.btn-price {
+   background-color: #8D86C9;
+   border-color: #8D86C9;
+   text-align: center;
+   align-items: center;
+   width: 50%;
+   color: white;
+}
+.btn-price img {
+  width: 5%;
+ align-items: center;
+}
+.ticket {
+   margin-right: 145px;
+}
+.sale {
+   margin-right: 178px
+}
+.prices-buttons {
+  
+}
+@media (max-width: 568px) {
+   .slider-header {
+      text-align: center;
+   }
+   .btn-round {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+   }
 }
