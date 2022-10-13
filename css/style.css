@@ -139,8 +139,26 @@ transform: rotateY(180deg);
 .sale {
    margin-right: 178px
 }
-.prices-buttons {
-  
+.footer {
+   background-color: bisque;
+   
+}
+.footer-bottom {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
+}
+.footer-bottom a {
+text-decoration: none;
+color: black;
+font-size: 12px;
+}
+.footer-bottom p {
+   font-size: 12px;
+   margin-top: 1rem;
 }
 @media (max-width: 568px) {
    .slider-header {
