@@ -109,17 +109,15 @@ transform: rotateY(180deg);
 .text-size {
    font-size: 10px;
 }
-.slider-buttons {
-   gap: 3px;
-   margin-right: 18rem;
-   margin-bottom: 2rem;
-}
-.slider-header {
-   margin-left: 215px;
-}
+
+
+
+
+
 .btn-round {
    background-color: #8D86C9;
    border-color: #8D86C9;
+   
 }
 .btn-price {
    background-color: #8D86C9;
@@ -133,32 +131,29 @@ transform: rotateY(180deg);
   width: 5%;
  align-items: center;
 }
-.ticket {
-   margin-right: 145px;
-}
-.sale {
-   margin-right: 178px
-}
+
 .footer {
    background-color: bisque;
-   
+   padding: 1rem;
 }
-.footer-bottom {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   text-align: center;
-   margin-bottom: 1rem;
-   margin-top: 1rem;
+.prices-buttons {
+   margin-top: 2.5rem;
 }
-.footer-bottom a {
-text-decoration: none;
-color: black;
-font-size: 12px;
+.tiket {
+   margin-right: 143px;
 }
-.footer-bottom p {
-   font-size: 12px;
-   margin-top: 1rem;
+.sale {
+   margin-right: 188px;
+}
+.dop-service {
+   margin-right: 13px;
+}
+.slider-buttons {
+   margin-right: 5px;
+}
+.footer-icons a {
+   text-decoration: none;
+   color: black;
 }
 @media (max-width: 568px) {
    .slider-header {
